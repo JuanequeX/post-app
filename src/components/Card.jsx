@@ -4,6 +4,7 @@ import Form from './Form'
 
 const  Card = () => {
   const [posts, setPosts] = useState([])
+  
   let URL = 'http://localhost:3000/api/v1'
 
   useEffect(() => {
